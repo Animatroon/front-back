@@ -145,6 +145,7 @@ CORS_ALLOW_CREDENTIALS = True
 
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_ROOT = os.path.join('/home/debian', 'static')
 MEDIA_URL = '/media/'
 
 
